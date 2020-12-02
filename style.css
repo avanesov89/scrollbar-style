@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+  body, html {
+    width: 100%;
+    height: 100%;
+  }
+  html {
+    overflow-y: scroll;
+    scrollbar-color: #2682eb transparent;
+    scrollbar-width: thin;
+  }
+  html::-webkit-scrollbar {
+    width: 8px;
+  }
+  html::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    background-color: transparent;
+    border-radius: 0;
+  }
+  html::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: #2682eb;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f8;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #232323;
+  }
+  .content {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
